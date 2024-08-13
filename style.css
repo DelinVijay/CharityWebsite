@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: rgb(253, 255, 252);
+    color:black
+}
+
+header{
+
+    background-color:rgb(95, 111, 101);
+    padding:20px;
+    color:azure;
+    border-radius : 15px 15px 0px 0px;
+}
+nav{
+    padding-top:10px;
+    text-align: end;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    padding-right:10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:azure
+}
+nav ul li a:hover{
+    color:black;
+}
+nav ul li a:active {
+    background-color: rgb(95, 111, 101);
+} 
+#banner{
+    background-image: 
+    url("background.jpg");
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    padding:250px;
+    color:rgb(95, 111, 101);
+    text-align:center;
+
+}
+#banner h1{
+    font-size: 120;
+    margin-bottom: 20px;
+}
+#banner p{
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+.cta{
+    background-color: rgb(95, 111, 101);
+    color:azure;
+    padding:15px;
+    text-decoration:none;
+    border-radius: 15px;
+    display:inline-block;
+    opacity:1;
+    font-size: 10px;
+    width:100px;
+}
+#causes{
+    background-color: rgb(95, 111, 101);
+    padding: 2rem 0;
+    text-align:center;
+    border-radius: 5px;
+    color:ghostwhite;
+}
+#causes h2{
+    font-size: 36px;
+    padding: 30px;
+    color:rgb(95, 111, 101);
+}
+.cause{
+    display:inline-block;
+    width:250px;
+    padding:1rem;
+    margin:2rem;
+    background-color: rgb(128, 141, 124);
+    border-radius: 20px;
+    background-image: 
+    url("background.jpg");
+    color:rgb(95, 111, 101);
+}
+.cause-icon{
+    width:250px;
+    height:200px;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+}
+
+.cause h3{
+    font-size:1rem;
+    margin-bottom:21;
+
+}
+#join{
+    background-image: 
+    url("background.jpg");
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    padding:250px;
+    color:rgb(95, 111, 101);
+    text-align:center;
+}
+#join h1{
+    font-size: 120;
+    margin-bottom: 20px;
+}
+button {
+    background-color: rgb(169, 181, 165);
+    border:none;
+    color:rgb(95, 111, 101);
+    font-size: 15px;
+    padding:10px;
+    text-decoration:none;
+    border-radius:15px;
+    display:inline-block;
+    opacity:1;
+    width:20%;
+    margin-bottom:10;
+}
+#join input{
+    width:30%;
+    padding:10px;
+    border: 1px ;
+    border-radius: 5px;;
+    background-color:rgb(169, 181, 165);
+}
+footer{
+    background-color: rgb(95, 111, 101);
+    /*border-radius: 20px*/;
+    color:azure;
+    text-align: center;
+}
+footer p{
+    font-size: small;
+}
